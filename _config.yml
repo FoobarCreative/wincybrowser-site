@@ -1,100 +1,93 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Wincy Browser                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6755565937                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon                                  : # assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Wincy Browser                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : " "                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : A safe web browser built just for kids
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-og_image                                  : assets/og_image.jpg                       # The default open graph image
+og_image                                  : assets/wincy_og_image.jpg                       # The default open graph image
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Foobar Creative
+your_link                                 : https://foobarcreative.com
+your_city                                 : Adelaide, Australia
+email_address                             : support@wincybrowser.com
 formspree_form_id                         : replaceme                                 # Enter your Formspree form ID here
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+linkedin_username                         :
+linkedin_company                          :
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             :
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Parent-Approved Websites Only
+    description                           : Your child can only visit websites you approve. Complete control over their browsing experience with easy-to-manage website permissions.
+    fontawesome_icon_name                 : shield-alt
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Safe Browsing for Kids
+    description                           : Built-in parental controls and advanced content filtering keep your kids safe online. Browse with confidence knowing harmful content is blocked.
+    fontawesome_icon_name                 : lock
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Age-Appropriate Content
+    description                           : Curated search results and kid-friendly websites ensure your child only sees content that's right for their age. Learning and fun, nothing inappropriate.
+    fontawesome_icon_name                 : child
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Screen Time Management
+    description                           : Set healthy browsing limits with built-in screen time controls and scheduling features. Encourage balanced device usage effortlessly.
+    fontawesome_icon_name                 : clock
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Educational Focus
+    description                           : Access to quality learning resources and educational content that supports your child's development. Make screen time productive and enriching.
+    fontawesome_icon_name                 : graduation-cap
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Easy for Kids to Use
+    description                           : Simple, colorful interface designed specifically for children. No complicated menus or confusing options, just safe browsing made fun.
+    fontawesome_icon_name                 : smile
 
 
+
+# Style
+default_primary                           : "#4CAF50"
+dark_primary                              : "#45a049"
+accent                                    : "#FFC107"
+dark_accent                               : "#FF9800"
+
+wincy_blue                                : "#5DADE2"
+wincy_green                               : "#7DCEA0"
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
+topbar_color                              : "#5DADE2"
+topbar_transparency                       : 1.0
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 0.0
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : blue                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#FF9800"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -103,8 +96,8 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#FF9800"
+feature_icons_background_color            : "#E3F2FD"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
