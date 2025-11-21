@@ -1,0 +1,18 @@
+{
+    "applinks": {
+        "details": [
+             {
+               "appIDs": ["2R86JC4Y89.com.wincybrowser.ios-app"],
+               "components": [
+                    {
+                        "/": "/app/*"
+                    },
+                    {
+                        "/": "/privacy-policy",
+                        "exclude": true
+                    }
+                ]
+            }
+        ]
+    }
+}
