@@ -9,44 +9,65 @@ include_in_footer: true
 ---
 
 **Last updated**
-November 2024
+December 2025
 
 # Privacy Policy
 
-This following document sets forth the Privacy Policy for the _Wincy Browser_ website and app, produced by _Foobar Creative_.
+Wincy Browser is a safe web browser for kids, developed by Foobar Creative. We are committed to protecting your family's privacy. This policy explains what data we collect and how we use it.
 
-_Foobar Creative_ is committed to providing you with the best possible customer service experience. _Foobar Creative_ is bound by the Privacy Act 1988 (Cth) (Australia), which sets out a number of principles concerning the privacy of individuals.
+## What We Collect
 
-### Collection of your personal information
+### Information We DO Collect
 
-Wincy Browser does not collect personal information when viewing our website. Within the iOS app, non-personally identifiable data such as device locale, app version, operating system, and crash logs are collected to improve performance and troubleshoot issues. If you contact us via email, we will store your email address.
+**Website Approvals**: When parents add websites to the approved list, we use Firebase to record which websites have been added. This helps us improve the app and understand which types of websites families find useful.
 
-The app may also utilize third-party tools, such as Google Analytics, to monitor app performance and usage patterns.
+**Technical Information**: We collect basic technical data to improve app performance and fix bugs, including:
+- Device type and operating system version
+- App version
+- Crash reports and error logs
+- General device locale (e.g., country/region)
 
-**Parental Controls**: The app stores website approval lists locally on the device to enable parental control features. This information is not transmitted to our servers and remains under parent/guardian control.
+**Email Communications**: If you contact us for support, we will store your email address to respond to your inquiry.
 
-### Sharing of your personal information
+### Information We DO NOT Collect
 
-We may employ other companies to provide services on our behalf, such as customer support or transaction processing. These companies will only have access to the personal information required to perform their services. Foobar Creative ensures these organizations comply with confidentiality and privacy obligations when handling your information.
+**Browsing Activity**: We do not track, log, or record which websites your child visits or views. Your family's browsing history is completely private.
 
-### Use of your personal information
+**Personal Information**: We do not collect names, ages, photos, or any other personal information from children or parents.
 
-The non-personally identifiable information collected is used internally for performance monitoring, bug fixes, and app improvements. This includes user locale, app version, operating system, and crash data.
+**Search Queries**: We do not log what your child searches for.
 
-Any updates to our data collection practices will only apply to information collected after the policy change.
+## How Information is Stored
 
-### Children's Privacy
+**Approved Website Lists**: The list of parent-approved websites is stored locally on your device. You maintain complete control over this list.
 
-Wincy Browser is designed specifically for children's use under parental supervision. We do not knowingly collect personal information from children. All browsing activity and approved website lists remain on the device and are managed by parents/guardians.
+**Firebase**: We use Firebase (a Google service) to record which websites are added to approval lists. This data is used solely to improve the app experience.
 
-### Changes to this Privacy Policy
+## How We Use Information
 
-Foobar Creative reserves the right to modify this Privacy Policy at any time. Any significant changes will be reflected here. If you disagree with the Privacy Policy, please refrain from using the app or site.
+The information we collect is used to:
+- Improve app performance and reliability
+- Fix bugs and crashes
+- Understand which types of websites families approve for their children
+- Respond to support requests
 
-### Accessing Your Personal Information
+We do not sell, rent, or share your information with third parties for marketing purposes.
 
-You have a right to access your personal information, subject to exceptions allowed by law. If you would like to do so, please let us know. You may be required to put your request in writing for security reasons. _Foobar Creative_ reserves the right to charge a fee for searching for, and providing access to, your information on a per request basis.
+## Children's Privacy
 
-### Contacting us
+Wincy Browser is designed for children under parental supervision. We do not knowingly collect personal information from children. All browsing activity stays on your device and is not transmitted to our servers.
 
-_Foobar Creative_ welcomes your comments regarding this Privacy Policy. If you have any questions about this Privacy Policy and would like further information, please [contact us via email](mailto:support@wincybrowser.com).
+## Your Rights
+
+You have the right to:
+- Request deletion of any data we have collected
+- Ask questions about how your data is used
+- Stop using the app at any time
+
+## Changes to This Policy
+
+We may update this privacy policy from time to time. We will notify users of any significant changes by updating the "Last updated" date at the top of this page.
+
+## Contact Us
+
+If you have questions or concerns about this privacy policy, please contact us at [support@wincybrowser.com](mailto:support@wincybrowser.com).
