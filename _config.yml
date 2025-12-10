@@ -10,7 +10,7 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Wincy Browser                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : " "                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : A safe web browser built just for kids
@@ -24,7 +24,7 @@ your_name                                 : Foobar Creative
 your_link                                 : https://foobarcreative.com
 your_city                                 : Adelaide, Australia
 email_address                             : support@wincybrowser.com
-formspree_form_id                         : replaceme                                 # Enter your Formspree form ID here
+formspree_form_id                         : meoyrglb                                 # Enter your Formspree form ID here
 linkedin_username                         :
 linkedin_company                          :
 facebook_username                         :
@@ -79,7 +79,7 @@ topbar_color                              : "#5DADE2"
 topbar_transparency                       : 1.0
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/header.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#000000"
 cover_overlay_transparency                : 0.0
 
@@ -120,6 +120,10 @@ footer_text_color                         : "#666666"
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
 
+# Site URL for absolute URLs
+url: "https://www.wincybrowser.com"
+baseurl: ""
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed # You might prefer to minify using :compressed
@@ -129,6 +133,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+include:
+  - ".well-known"
 
 collections:
   pages:
