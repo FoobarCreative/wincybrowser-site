@@ -19,7 +19,7 @@ Wincy Browser is a safe web browser for kids, developed by Foobar Creative. We a
 
 ### Information We DO Collect
 
-**Website Approvals**: When parents add websites to the approved list, we use Firebase to record which websites have been added. This helps us improve the app and understand which types of websites families find useful.
+**Website Approvals**: When parents add websites to the approved list, we use analytics services to record which websites have been added. This helps us improve the app and understand which types of websites families find useful.
 
 **Technical Information**: We collect basic technical data to improve app performance and fix bugs, including:
 - Device type and operating system version
@@ -41,7 +41,7 @@ Wincy Browser is a safe web browser for kids, developed by Foobar Creative. We a
 
 **Approved Website Lists**: The list of parent-approved websites is stored locally on your device. You maintain complete control over this list.
 
-**Firebase**: We use Firebase (a Google service) to record which websites are added to approval lists. This data is used solely to improve the app experience.
+**Analytics Data**: We use analytics services to record which websites are added to approval lists. This data is used solely to improve the app experience.
 
 ## How We Use Information
 
@@ -56,13 +56,6 @@ We do not sell, rent, or share your information with third parties for marketing
 ## Children's Privacy
 
 Wincy Browser is designed for children under parental supervision. We do not knowingly collect personal information from children. All browsing activity stays on your device and is not transmitted to our servers.
-
-## Your Rights
-
-You have the right to:
-- Request deletion of any data we have collected
-- Ask questions about how your data is used
-- Stop using the app at any time
 
 ## Changes to This Policy
 
