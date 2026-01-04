@@ -1,6 +1,9 @@
 #page title
 page_title                                : Wincy Browser                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
+# Site URL (required for sitemap)
+url                                       : https://www.wincybrowser.com
+
 # App Info
 ios_app_id                                : 6755565937                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
@@ -144,3 +147,7 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-sitemap
