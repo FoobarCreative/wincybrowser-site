@@ -2,6 +2,8 @@
 layout: page
 title:  "Privacy Policy"
 permalink: /privacy-policy
+redirect_from:
+  - /privacy-policy/
 comments: false
 imageshadow: false
 include_in_header: false

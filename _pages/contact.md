@@ -2,6 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact
+redirect_from:
+  - /contact/
 comments: false
 include_in_header: false
 include_in_footer: true
