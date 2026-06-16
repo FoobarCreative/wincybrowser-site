@@ -18,6 +18,7 @@ app_name                                  : Wincy Browser                       
 app_price                                 : " "                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_subtitle                              : A child safe internet                          # Shown below app name instead of price.
 app_description                           : A safe web browser built just for kids. Parents can approve websites, and external links are blocked. Simple safety for your family.
+app_category                              : BrowserApplication                        # Schema.org applicationCategory for structured data (e.g. UtilitiesApplication, MultimediaApplication, DesignApplication, LifestyleApplication, BrowserApplication).
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -96,6 +97,7 @@ link_color                                : "#FF9800"
 app_title_color                           : "#451a03"
 app_price_color                           : "#78350f"
 app_description_color                     : "#78350f"
+app_category                              : BrowserApplication                        # Schema.org applicationCategory for structured data (e.g. UtilitiesApplication, MultimediaApplication, DesignApplication, LifestyleApplication, BrowserApplication).
 
 feature_title_color                       : "#451a03"
 feature_text_color                        : "#78350f"
