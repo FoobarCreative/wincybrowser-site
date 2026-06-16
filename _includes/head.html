@@ -8,7 +8,13 @@
 	<meta name="description" content="{{ site.app_description }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
-	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+	<!-- Favicons (helps Google show the site icon in search results) -->
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/android-chrome-192x192.png' | relative_url }}">
+	<link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/android-chrome-512x512.png' | relative_url }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+	<link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
@@ -31,6 +37,49 @@
 	<meta name="twitter:description" content="{{ page.og_description | default: site.app_description }}">
 	<meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url }}">
 	<meta name="twitter:image:alt" content="{{ page.og_image_alt | default: 'My Awesome Site' }}">
+
+	<!-- Structured data (Schema.org) — gives Google richer signals for search results -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "{{ site.url }}/#website",
+				"url": "{{ site.url }}/",
+				"name": "{{ site.app_name }}",
+				"description": "{{ site.app_description }}",
+				"publisher": { "@id": "{{ site.url }}/#organization" }
+			},
+			{
+				"@type": "Organization",
+				"@id": "{{ site.url }}/#organization",
+				"name": "{{ site.your_name }}",
+				"url": "{{ site.your_link }}",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "{{ '/assets/appicon512.png' | absolute_url }}"
+				}
+			},
+			{
+				"@type": "SoftwareApplication",
+				"name": "{{ site.app_name }}",
+				"description": "{{ site.app_description }}",
+				"url": "{{ site.url }}/",
+				"applicationCategory": "UtilitiesApplication",
+				"operatingSystem": "iOS",
+				"image": "{{ site.app_icon | absolute_url }}",
+				"downloadUrl": "https://apps.apple.com/{{ site.ios_app_country }}/app/id{{ site.ios_app_id }}",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD"
+				},
+				"publisher": { "@id": "{{ site.url }}/#organization" }
+			}
+		]
+	}
+	</script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
