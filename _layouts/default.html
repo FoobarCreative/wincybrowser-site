@@ -39,11 +39,8 @@
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
-                                {{ site.app_name }}
+                                {{ site.app_name }}{% if site.app_subtitle %}<span class="appHeadline">{{ site.app_subtitle }}</span>{% endif %}
                             </h1>
-                            <h2 class="appPrice">
-                                {% if site.app_subtitle %}{{ site.app_subtitle }}{% else %}{{ site.app_price }}{% endif %}
-                            </h2>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
